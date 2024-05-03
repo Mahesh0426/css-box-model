@@ -1,0 +1,71 @@
+.flex-container {
+  background-color: rgb(155, 152, 104);
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  margin: 5px;
+  height: auto;
+  border: 2px solid black;
+  flex-wrap: wrap;
+}
+.flex {
+  background-color: rgb(35, 11, 216);
+  height: 35vh;
+  margin: 5px;
+  display: flex;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.fitem {
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 14px;
+  border: 2px solid black;
+  background-color: rgb(77, 51, 154);
+  height: 40px;
+  width: max-content;
+}
+.flex1 {
+  flex-direction: row;
+   padding: 5px;
+}
+.flex-nested {
+  background-color: rgb(143, 39, 60);
+  flex-grow: 2;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 4px;
+  height: 40px;
+}
+.flex-nested1 {
+  display: flex;
+
+  background-color: rgb(18, 202, 187);
+  flex: 1 1 auto;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+  /* justify-content: center; */
+}
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px solid green; */
+}
+.container1 > div {
+  font-size: 4vh;
+  background-color: rgb(67, 156, 240);
+  color: white;
+  margin: 3px;
+  padding: 7px;
+  border-radius: 3px;
+  flex-grow: 2;
+}
+.container1 .container1 > div {
+  background-color: rgb(181, 95, 168);
+  color: rgb(13, 238, 103);
+}
